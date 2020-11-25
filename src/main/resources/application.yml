@@ -1,0 +1,61 @@
+spring.main.banner-mode: off
+
+logging.level.org.eumetsat.coda.maintenance.CodaMaintenanceKt: ERROR
+
+coda.instances:
+  - name: backend2
+    description: OFL Primary Backend
+    username: root
+    password: Password01
+    url: https://backend2/
+  - name: backend3
+    description: NRT Primary Backend
+    username: root
+    password: Password01
+    url: https://backend3/
+  - name: backend5
+    description: OFL Backup Backend
+    username: root
+    password: Password01
+    url: https://kend5/
+  - name: backend6
+    description: NRT Backup Backend
+    username: root
+    password: Password01
+    url: https://backend6/
+  - name: frontend1
+    description: Frontend 1
+    username: root
+    password: Password01
+    url: https://frontend1/
+  - name: frontend2
+    description: Frontend 2
+    username: root
+    password: Password01
+    url: https://frontend2/
+  - name: frontend3
+    description: Frontend 3
+    username: root
+    password: Password01
+    url: https://frontend3/
+  - name: ref-frontend
+    description: CODA REF frontend
+    username: root
+    password: Password02
+    url: https://t.int/
+  - name: ref-backend
+    description: CODA REF backend
+    username: root
+    password: Password02
+    url: https://ackend1/
+  - name: repfrontend
+    description: CODA REP frontend
+    username: root
+    password: Password01
+    url: https://int/
+  - name: repbackend
+    description: CODA REP backend
+    username: root
+    password: Password01
+    url: https://int/bkend/
+
